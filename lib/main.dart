@@ -43,7 +43,7 @@ class _DiscountPageState extends State<DiscountPage> {
         ),
       );
       setState(() {
-        _finalPrice = originalPrice; // Reset to original price if coupon is invalid
+        _finalPrice = originalPrice;
       });
     }
   }
